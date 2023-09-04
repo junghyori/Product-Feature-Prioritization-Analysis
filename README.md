@@ -26,7 +26,8 @@ This section employs a range of Natural Language Processing (NLP) techniques, in
 
 ### 3. Priority Analysis
 
-After extracting the features, this section is dedicated to their analysis and prioritization. Their significance is determined based on factors like relevance, frequency, and sentiment scores. The deep analysis aids in highlighting the most important features which could be pivotal in enhancing the Disneyland visitor experience.
+After extracting the features, this section delves into their analysis and prioritization. Features are evaluated based on factors such as relevance, frequency, and sentiment scores. 
+Additionally, this section introduces category analysis. Rather than focusing solely on individual features, features are grouped into broader categories to identify patterns and understand their collective impact on the visitor experience. This categorization provides a holistic view, allowing for an understanding of overarching themes that resonate strongly with visitors. Through this comprehensive analysis, the study aims to spotlight the most important features and categories that could be instrumental in enhancing the Disneyland visitor experience.
 
 ### 4. Evaluation
 
