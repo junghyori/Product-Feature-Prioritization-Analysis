@@ -1,26 +1,43 @@
 # Product-Feature-Prioritization-Analysis
 
-This repository is part of an ongoing thesis project that delves into conducting a feature prioritization analysis of Disneyland based on visitor reviews sourced from the TripAdvisor platform.
+This repository is part of an ongoing thesis project focused on conducting a feature prioritization analysis of Disneyland based on visitor reviews sourced from the TripAdvisor platform.
+
+## Dataset Information
+
+The analysis operates on two specific datasets:
+
+- **Original Dataset (`DisneylandReviews.csv`)**: This dataset encompasses a comprehensive collection of visitor reviews from the TripAdvisor platform, serving as the foundational data for the main analysis.
+
+- **Evaluation Sampled Dataset (`Evaluation Sampled Data.csv`)**: For the purpose of evaluation, a subset of reviews from the original dataset has been extracted. This sampled dataset facilitates a comparison between the outcomes of the automated extraction process and manual extraction, affirming the model's robustness and validity.
+
+> The dataset used in this study was sourced from Kaggle. You can access the dataset [here](https://www.kaggle.com/datasets/arushchillar/disneyland-reviews).
 
 ## Jupyter Notebook
-The provided Jupyter notebook is systematically organized into three main sections:
+
+The provided Jupyter notebook is systematically organized into several sections:
 
 ### 1. Text Preprocessing
-Within this section, the data undergoes various preprocessing steps, which include tokenization, stopword removal, lemmatization, and other text-cleaning procedures, thereby preparing the data for deeper analysis.
+
+Here, the data is prepared for analysis through various preprocessing steps such as tokenization, stopword removal, lemmatization, and other text-cleaning techniques.
 
 ### 2. Feature Extraction
-Here, several Natural Language Processing (NLP) techniques including topic modelling and POS tagging are employed to discern and extract salient features from the visitor reviews. These features encapsulate diverse facets of the Disneyland experience, echoing the sentiments and observations voiced by the visitors.
+
+This section employs a range of Natural Language Processing (NLP) techniques, including topic modelling and POS tagging, to discern and extract key features from the visitor reviews. These extracted features capture the diverse aspects of the Disneyland experience as reflected in the sentiments and observations of the visitors.
 
 ### 3. Priority Analysis
-Post-feature extraction, the third section is dedicated to the analysis and prioritization of these features. Their significance is ascertained based on criteria like relevance, frequency, and sentiment scores. This rigorous analysis aids in spotlighting the most pivotal features that could serve as focal points for enhancing the Disneyland visitor experience.
+
+After extracting the features, this section is dedicated to their analysis and prioritization. Their significance is determined based on factors like relevance, frequency, and sentiment scores. The deep analysis aids in highlighting the most important features which could be pivotal in enhancing the Disneyland visitor experience.
 
 ### 4. Evaluation
-Additionally, the repository includes a Jupyter notebook that focuses on the evaluation of the methodology applied in the case study. It covers data sampling, manual vs. automated feature extraction, and ranking comparisons. The evaluation provides insights into methodology effectiveness and alignment with manual processes.
+
+An additional Jupyter notebook housed in the repository concentrates on the evaluation of the methodology used in the study. Topics covered include data sampling, contrasts between manual vs. automated feature extraction, and ranking comparisons. This evaluation sheds light on the methodology's effectiveness and its alignment with manual processes.
 
 ## Copyright Notice
-Please be informed that this project, inclusive of all its contents, is the exclusive intellectual property of the author. Any unauthorized appropriation, reproduction, or distribution of this content without the author's explicit written consent is strictly prohibited.
+
+All users are advised that the entirety of this project, including all its components, remains the exclusive intellectual property of the author. Any unauthorized replication, use, or distribution without prior written consent is strictly prohibited.
 
 ## Contact
-Should you have further queries or face any issues, kindly reach out to gracejeonghyeon@gmail.com
 
-The preceding details are curated to facilitate a comprehensive understanding and utilization of this repository. For an in-depth exposition of the study's methodology, the intrinsic workings of the model, and the resultant findings, it is recommended to refer to the full research paper accompanying this project.
+For any further queries, issues, or feedback, please direct communications to gracejeonghyeon@gmail.com.
+
+For a comprehensive understanding of this repository's offerings and a deep dive into the methodologies and insights, users are encouraged to refer to the full research paper associated with this project.
