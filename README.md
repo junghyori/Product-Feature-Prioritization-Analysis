@@ -1,6 +1,6 @@
 # Product-Feature-Prioritization-Analysis
 
-This repository is part of an thesis project focused on conducting a feature prioritization analysis of Disneyland based on visitor reviews.
+This repository is part of a thesis project focused on conducting a feature prioritization analysis of Disneyland based on visitor reviews.
 
 ## Dataset Information
 
